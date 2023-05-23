@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1280">
+  <meta name="description" content="Hello Again 우리동네 카페베네 홈페이지입니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CAFFEBENE">
+  <meta property="og:description" content="Hello Again 우리동네 카페베네 홈페이지입니다.">
+  <meta property="og:image" content="http://hong404.dothome.co.kr/caffebene/images/caffebene_og.png">
+  <meta property="og:url" content="http://hong404.dothome.co.kr/caffebene">
+  <title>CAFFEBENE</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/caffebene.ico?v=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="css/layout.css?v=<?php echo time(); ?>">
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/ui_common.js?v=<?php echo time(); ?>"></script>
+</head>
+<body>
+  <div id="skip_navi">
+    <a href="#container">본문바로가기</a>
+  </div>
+  <div id="wrap">
+    <header id="header">
+      <h1 class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="카페베네"></a></h1>
+      <nav class="gnb_wrap" >
+        <ul class="gnb clearfix">
+          <li>
+            <a href="about.html">CAFFEBENE</a>
+            <ul class="depth02">
+              <li><a href="about.html">브랜드 스토리</a></li>
+              <li><a href="about.html">베네캣 스토리</a></li>
+              <li><a href="about.html">카페베네 원두</a></li>
+              <li><a href="about.html">카페베네 소식</a></li>
+              <li><a href="about.html">매거진</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="menu.html">MENU</a>
+            <ul class="depth02">
+              <li><a href="menu.html">신메뉴</a></li>
+              <li><a href="menu.html">커피</a></li>
+              <li><a href="menu.html">음료</a></li>
+              <li><a href="menu.html">푸드</a></li>
+              <li><a href="menu.html">MD상품</a></li>
+              <li><a href="menu.html">Retail</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">STORE</a>
+            <ul class="depth02">
+              <li><a href="#">국내</a></li>
+              <li><a href="#">해외</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="faq.html">MEMBERSHIP</a>
+            <ul class="depth02">
+              <li><a href="faq.html">등급&amp;혜택</a></li>
+              <li><a href="faq.html">가입방법안내</a></li>
+              <li><a href="faq.html">서비스</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">GLOBAL</a>
+            <ul class="depth02">
+              <li><a href="#">해외매장안내</a></li>
+              <li><a href="#">해외매장소개</a></li>
+              <li><a href="#">해외가맹&amp;유통문의</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">CONTENTS</a>
+            <ul class="depth02">
+              <li><a href="#">커피</a></li>
+              <li><a href="#">우리동네</a></li>
+              <li><a href="#">사람들</a></li>
+              <li><a href="#">메뉴</a></li>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">매장</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a class="btn_inquiry" href="#" target="_blank">가맹문의</a>
+      </nav>
+      <div class="util_wrap">
+        <ul class="util">
+          <li><a class="login" href="login.html">로그인</a></li>
+          <li class="active"><a href="#">KR</a></li>
+          <li><a href="#">EN</a></li>
+        </ul>
+        <button class="btn_search" type="button">
+          <i class="xi-search"></i> 
+        </button>
+      </div>
+      <div class="search_area">
+        <form>
+          <fieldset>
+            <legend>상품검색</legend>
+            <input id="main_sch" type="text" title="전체검색" placeholder="검색어를 입력해주세요" autocomplete="off">
+            <button class="btn_search" type="button">검색창</button>
+          </fieldset>
+        </form>
+      </div>
+    </header>
+    <div id="container" class="login_page">
+      <div class="contents">
+        <div class="inner">
+          <div class="login_tit">
+            <h2>LOGIN</h2>
+            <p>카페베네 회원으로 로그인하시면<br>
+            다양한 서비스를 이용할 수 있습니다.</p>
+          </div>
+          <div class="form_wrap">
+            <form>
+              <fieldset>
+                <legend>회원로그인</legend>
+                <div class="input_wrap">
+                  <label>아이디</label>
+                  <input class="login" type="text" placeholder="아이디 입력">
+                </div>
+                <div class="input_wrap">
+                  <label>비밀번호</label>
+                  <input class="password" type="password" placeholder="비밀번호 입력">
+                </div>
+                <div class="checkbox_area">
+                  <div class="checkbox_wrap">
+                    <input type="checkbox" id="remember_id">
+                    <label for="remember_id">아이디 저장</label>
+                  </div>
+                </div>
+                <div class="btn_sign">
+                  <a href="#">로그인</a>
+                </div>
+                <div class="login_link">
+                  <ul class="link">
+                    <li>
+                      <a href="#">아이디 찾기</a>
+                    </li>
+                    <li>
+                      <a href="#">비밀번호 찾기</a>
+                    </li>
+                    <li>
+                      <a href="#">회원가입</a>
+                    </li>
+                  </ul>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="top_wrap">
+        <a class="btn_top" href="#">상단이동</a>
+      </div>
+      <div class="footer_top">
+        <div class="inner">
+          <ul class="info_wrap">
+            <li>
+              <a href="#">오시는길</a>
+            </li>
+            <li>
+              <a href="#">제휴문의</a>
+            </li>
+            <li>
+              <a href="#">개인정보처리방침</a>
+            </li>
+            <li>
+              <a href="#">이용약관</a>
+            </li>
+            <li>
+              <strong>고객센터 1699-4666</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <h2 class="footer_logo">
+          <img src="images/footer-logo.png" alt="카페베네">
+        </h2>
+        <div class="txt_wrap">
+          <p class="address">
+            <span>서울시 성동구 상원1길 25</span>
+            <span>대표이사 박그레타</span>
+            <span>업자등록번호 206-86-29161</span>
+            <span>benecs@caffebene.co.kr</span>
+          </p>
+          <p class="copyright">Copyright© by Caffebene, All rights reserved.</p>
+        </div>
+        <div class="btn_sns">
+          <a class="sns" href="#">
+            <img src="images/icon_bt_app.png" alt="카페베네 어플리케이션">
+          </a>
+          <a class="sns" href="#">
+            <img src="images/icon_bt_blog.png" alt="카페베네 블로그">
+          </a>
+          <a class="sns" href="#">
+              <img src="images/icon_bt_ista.png" alt="카페베네 인스타">
+          </a>
+          <a class="sns" href="#">
+            <img src="images/icon_bt_yt.png" alt="카페베네 유투브">
+          </a>
+          <a class="sns" href="#">
+            <img src="images/icon_bt_fb.png" alt="카페베네 페이스북">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
